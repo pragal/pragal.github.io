@@ -34,8 +34,8 @@
         <span class="spinner-grow spinner-grow-lg loader" role="status" aria-hidden="true"></span>
     </div>
 
-    <!-- Portfolio Single Modal -->
-    <div class="portfolio-single modal fade" id="portfolio-single" tabindex="-1" role="dialog" aria-labelledby="portfolioModalScrollable" aria-hidden="true">
+    <!--  Portfolio Single Item  -->
+    <div id="portfolioSingleModal" class="portfolio-single modal fade" tabindex="-1" role="dialog" aria-labelledby="portfolioModalScrollable" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content bg-white">
                 <div class="modal-header">
@@ -44,59 +44,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <div class="pt-4 pb-5">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12 col-md-10 offset-md-1">
-                                    <div class="text-center">
-                                        <h2 class="text-dark mb-3">Single <span class="base-color"> Portfolio</span></h2>
-                                        <p class="text-muted max-width-450">In a professional context it often happens that private clients corder a publication to be made.</p>
-                                    </div>
-                                    <div class="row contact-info mt-5">
-                                        <div class="col-md-4">
-                                            <div class="text-center">
-                                                <div>
-                                                    <h6>Created by:</h6>
-                                                    <p class="text-muted mb-0">John Doe</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 p-title-border mt-3 mt-md-0">
-                                            <div class="text-center">
-                                                <div>
-                                                    <h6 class="contact_detail-title">Completed on:</h6>
-                                                    <p class="text-muted mb-0">September 30, 2019</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mt-3 mt-md-0">
-                                            <div class="text-center">
-                                                <div>
-                                                    <h6>Skills:</h6>
-                                                    <p class="text-muted mb-0">HTML5 / PHP / CSS3</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="mt-5">
-                                        <div class="portfolio-single-item">
-                                            <img src="assets/img/005.jpg" class="d-block w-100 rounded" alt="...">
-                                        </div>
-                                    </div>
-                                    <div class="text-md-left mt-5">
-                                        <p class="my-3 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has
-                                            been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final
-                                            presentation. Only for show.</p>
-                                        <p class="mt-3 mb-0 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It
-                                            has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final
-                                            presentation. Only for show.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="modal-body"></div>
             </div>
         </div>
     </div>
@@ -535,179 +483,146 @@
                                 <li class="list-inline-item">
                                     <a href="#" data-filter=".product" class="my-1">Products</a>
                                 </li>
-                                <li class="list-inline-item">
-                                    <a href="#" data-filter=".template" class="my-1">Templates</a>
-                                </li>
                             </ul>
                         </div>
                         <div class="portfolio-items mt-4 row">
                             <!-- Item 01 -->
                             <div class="col-lg-4 portfolio-item my-3 website">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="assets/img/portfolio/001.jpg" alt="/">
+                                    <img src="assets/img/portfolio/br-landing-page/home.jpg" alt="BalaRaathi">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <button class="btn-toggle-portfolio-model" type="button" data-url="model/br-landing-page.html">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="assets/img/portfolio/001.jpg" class="js-zoom-gallery">
+                                                <a href="assets/img/portfolio/br-landing-page/home.jpg" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">BalaRaathi</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- Item 02 -->
-                            <div class="col-lg-4 portfolio-item my-3 template">
-                                <div class="portfolio-item-content rounded">
-                                    <img src="assets/img/portfolio/002.jpg" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i class="lni-link"></i>
-                                                </button>
-                                                <a href="assets/img/portfolio/002.jpg" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <!-- Item 03 -->
-                            <div class="col-lg-4 portfolio-item my-3 website template">
-                                <div class="portfolio-item-content rounded">
-                                    <img src="assets/img/portfolio/003.jpg" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i class="lni-link"></i>
-                                                </button>
-                                                <a href="assets/img/portfolio/003.jpg" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Item 04 -->
                             <div class="col-lg-4 portfolio-item my-3 website">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="assets/img/portfolio/004.jpg" alt="/">
+                                    <img src="assets/img/portfolio/br-engagement/engagement-3.jpg" alt="Engagement">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <button class="btn-toggle-portfolio-model" type="button" data-url="model/br-engagement.html">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="assets/img/portfolio/004.jpg" class="js-zoom-gallery">
+                                                <a href="assets/img/portfolio/br-engagement/engagement-3.jpg" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">Engagement</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Item 04 -->
+                            <div class="col-lg-4 portfolio-item my-3 product">
+                                <div class="portfolio-item-content rounded">
+                                    <img src="assets/img/portfolio/brewart/designer-outline.jpg" alt="BrewArt">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <button class="btn-toggle-portfolio-model" type="button" data-url="model/brewart.html">
+                                                    <i class="lni-link"></i>
+                                                </button>
+                                                <a href="assets/img/portfolio/brewart/designer-outline.jpg" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">BrewArt</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- Item 05 -->
-                            <div class="col-lg-4 portfolio-item my-3 product template">
+                            <div class="col-lg-4 portfolio-item my-3 website">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="assets/img/portfolio/005.jpg" alt="/">
+                                    <img src="assets/img/portfolio/br-marriage/marriage-home-4.jpg" alt="Wedding">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <button class="btn-toggle-portfolio-model" type="button" data-url="model/br-wedding.html">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="assets/img/portfolio/005.jpg" class="js-zoom-gallery">
+                                                <a href="assets/img/portfolio/br-marriage/marriage-home-4.jpg" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">Wedding</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <!-- Item 06 -->
-                            <div class="col-lg-4 portfolio-item my-3 website product">
+                            <div class="col-lg-4 portfolio-item my-3 product">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="assets/img/portfolio/007.jpg" alt="/">
+                                    <img src="assets/img/portfolio/brewinstant/signin.jpg" alt="BrewInstant">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <button class="btn-toggle-portfolio-model" type="button" data-url="model/brewinstant.html">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="assets/img/portfolio/007.jpg" class="js-zoom-gallery">
+                                                <a href="assets/img/portfolio/brewinstant/signin.jpg" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">BrewInstant</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <!-- Item 07 -->
                             <div class="col-lg-4 portfolio-item my-3 product">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="assets/img/portfolio/009.jpg" alt="/">
+                                    <img src="assets/img/portfolio/ibrewapp/signin.jpg" alt="iBrewApp">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <button class="btn-toggle-portfolio-model" type="button" data-url="model/ibrewapp.html">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="assets/img/portfolio/009.jpg" class="js-zoom-gallery">
+                                                <a href="assets/img/portfolio/ibrewapp/signin.jpg" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">iBrewApp</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <!-- Item 08 -->
-                            <div class="col-lg-4 portfolio-item my-3 product website">
-                                <div class="portfolio-item-content rounded">
-                                    <img src="assets/img/portfolio/006.jpg" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i class="lni-link"></i>
-                                                </button>
-                                                <a href="assets/img/portfolio/006.jpg" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                             <!-- Item 09 -->
-                            <div class="col-lg-4 portfolio-item my-3 product website">
+                            <div class="col-lg-4 portfolio-item my-3 product">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="assets/img/portfolio/008.jpg" alt="/">
+                                    <img src="assets/img/portfolio/devportal/ibrewapp-theme-gallery.jpg" alt="Developers Portal">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <button class="btn-toggle-portfolio-model" type="button" data-url="model/dev-portal.html">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="assets/img/portfolio/008.jpg" class="js-zoom-gallery">
+                                                <a href="assets/img/portfolio/devportal/ibrewapp-theme-gallery.jpg" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">Developers Portal</h5>
                                         </div>
                                     </div>
                                 </div>

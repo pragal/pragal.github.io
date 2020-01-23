@@ -235,6 +235,16 @@ function portfolioIsotop() {
     });
 }
 
+/*---------------------------
+    Portfolio Single Model
+-----------------------------*/
+$('.btn-toggle-portfolio-model').click(function(){
+    var url = $(this).data("url");
+    $('#portfolioSingleModal .modal-body').load(url,function(result){
+        $('#portfolioSingleModal').modal({show:true});
+    });
+});
+
 /*-------------------------
     Testimonial CAROUSEL JS
 -------------------------*/
