@@ -459,7 +459,7 @@ function sendEmail() {
         $.ajax({
             type: 'POST',
             data: $("#contactForm").serialize(),
-            url:  "sendEmail.php",
+            url:  "assets/mail/sendEmail.php",
             beforeSend: function() {
                 $('#submit-btn').html('<span class="spinner-border spinner-border-sm"></span> Loading..');
             },
@@ -469,11 +469,9 @@ function sendEmail() {
                 if(myObj['status']=='Congratulation'){
                     $('#message').toast('show').addClass('bg-success').removeClass('bg-danger bg-warning');
                     $('.toast-body').html('<strong>'+ myObj['status'] +' : </strong> '+ myObj['message']);
+                    $('#name, #email, #subject, #comments').val('');
                 }else if(myObj['status']=='Error'){
                     $('#message').toast('show').addClass('bg-danger').removeClass('bg-success bg-warning');
-                    $('.toast-body').html('<strong>'+ myObj['status'] +' : </strong> '+ myObj['message']);
-                }else if(myObj['status']=='Warning'){
-                    $('#message').toast('show').addClass('bg-warning').removeClass('bg-success bg-danger');
                     $('.toast-body').html('<strong>'+ myObj['status'] +' : </strong> '+ myObj['message']);
                 }
             },
