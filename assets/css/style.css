@@ -21,7 +21,7 @@
     12.BLOG
     13.CONTACT
     14.FOOTER
-    15.NILL-DARK
+    15.PRAGAL-DARK
 	16.RESPONSIVE
 ************************/
 /*-------------------------
@@ -412,7 +412,7 @@ header {
           HERO
 -------------------------*/
 .hero-01 {
-  background: url("../img/nill.jpg") no-repeat;
+  background: url("../img/pragal.jpg") no-repeat;
   background-size: cover;
   -webkit-box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
           box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
@@ -935,7 +935,7 @@ ul.timeline > li:before {
           FOOTER
 -------------------------*/
 .footer {
-  background: url("../img/nill.jpg") no-repeat;
+  background: url("../img/pragal.jpg") no-repeat;
   background-size: cover;
   -webkit-box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
           box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
@@ -1098,251 +1098,251 @@ ul.timeline > li:before {
 }
 
 /*-------------------------
-       Nill DARK
+       PRAGAL DARK
 -------------------------*/
-body.nill-dark {
+body.pragal-dark {
   background-color: #222;
   color: #ffffff;
 }
 
-.nill-dark .hero, .nill-dark .hero-02 .hero-item1, .nill-dark .hero-02 .hero-item2, .nill-dark .hero-02 .hero-item3, .nill-dark .footer {
+.pragal-dark .hero, .pragal-dark .hero-02 .hero-item1, .pragal-dark .hero-02 .hero-item2, .pragal-dark .hero-02 .hero-item3, .pragal-dark .footer {
   -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
           box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
 }
 
-.nill-dark .hero-03 {
+.pragal-dark .hero-03 {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.nill-dark .text-dark {
+.pragal-dark .text-dark {
   color: #f4f4f4 !important;
 }
 
-.nill-dark a.text-dark:hover {
+.pragal-dark a.text-dark:hover {
   color: #f4f4f4 !important;
 }
 
-.nill-dark a.text-dark:focus {
+.pragal-dark a.text-dark:focus {
   color: #f4f4f4 !important;
 }
 
-.nill-dark .comment-info a {
+.pragal-dark .comment-info a {
   color: #f4f4f4 !important;
 }
 
-.nill-dark .comment-info a:hover {
+.pragal-dark .comment-info a:hover {
   color: #e24727 !important;
 }
 
-.nill-dark .form-item .form-control {
+.pragal-dark .form-item .form-control {
   color: #f4f4f4 !important;
   border-bottom: 1px solid #eee;
   background: transparent;
 }
 
-.nill-dark .form-item .form-control:focus {
+.pragal-dark .form-item .form-control:focus {
   border-bottom: 1px solid #e24727;
 }
 
-.nill-dark .text-muted {
+.pragal-dark .text-muted {
   color: #dbdbdb !important;
 }
 
-.nill-dark .bg-dark, .nill-dark .bg-white {
+.pragal-dark .bg-dark, .pragal-dark .bg-white {
   background-color: #222 !important;
 }
 
-.nill-dark .services-item {
+.pragal-dark .services-item {
   background-color: #2a2a2b !important;
 }
 
-.nill-dark .img-thumbnail {
+.pragal-dark .img-thumbnail {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-.nill-dark #pp-nav li span, .nill-dark .pp-slidesNav span {
+.pragal-dark #pp-nav li span, .pragal-dark .pp-slidesNav span {
   background-color: #eee;
 }
 
-.nill-dark #pp-nav li .active span, .nill-dark .pp-slidesNav .active span {
+.pragal-dark #pp-nav li .active span, .pragal-dark .pp-slidesNav .active span {
   background-color: #e24727;
 }
 
-.nill-dark .pp-tooltip {
+.pragal-dark .pp-tooltip {
   color: #f4f4f4 !important;
 }
 
-.nill-dark .overlay-menu-toggler {
+.pragal-dark .overlay-menu-toggler {
   color: #eee !important;
 }
 
-.nill-dark .portfolio-filter li a {
+.pragal-dark .portfolio-filter li a {
   color: #dbdbdb !important;
 }
 
-.nill-dark .portfolio .portfolio-item-content {
+.pragal-dark .portfolio .portfolio-item-content {
   border-color: rgba(27, 30, 33, 0.9);
 }
 
-.nill-dark .portfolio .portfolio-item-content:hover {
+.pragal-dark .portfolio .portfolio-item-content:hover {
   background-color: rgba(27, 30, 33, 0.9);
 }
 
-.nill-dark .portfolio .portfolio-icon a {
+.pragal-dark .portfolio .portfolio-icon a {
   color: #222;
   background-color: #f4f4f4;
 }
 
-.nill-dark .portfolio .portfolio-icon a:hover {
+.pragal-dark .portfolio .portfolio-icon a:hover {
   background-color: #e24727;
   color: #f4f4f4;
 }
 
-.nill-dark .testimonial .testimonial-item {
+.pragal-dark .testimonial .testimonial-item {
   background-color: #2a2a2b !important;
 }
 
-.nill-dark .blog .blog-content {
+.pragal-dark .blog .blog-content {
   background-color: #2a2a2b !important;
 }
 
-.nill-dark .blog .blog-link:hover {
+.pragal-dark .blog .blog-link:hover {
   color: #f4f4f4;
 }
 
-.nill-dark .blog .blog-item h5 a:hover {
+.pragal-dark .blog .blog-item h5 a:hover {
   color: #e24727 !important;
 }
 
-.nill-dark .navbar-nav .nav-item a:hover, .nill-dark .navbar a:hover {
+.pragal-dark .navbar-nav .nav-item a:hover, .pragal-dark .navbar a:hover {
   color: #e24727 !important;
 }
 
-.nill-dark .navbar a:hover {
+.pragal-dark .navbar a:hover {
   color: #e24727 !important;
 }
 
-.nill-dark .testimonial .owl-dot span {
+.pragal-dark .testimonial .owl-dot span {
   background-color: #dbdbdb;
 }
 
-.nill-dark .testimonial .owl-dot.active span {
+.pragal-dark .testimonial .owl-dot.active span {
   background-color: #e24727;
 }
 
-.nill-dark .blog .blog-link button:hover {
+.pragal-dark .blog .blog-link button:hover {
   color: #dbdbdb !important;
 }
 
-.nill-dark .pill-button:hover {
+.pragal-dark .pill-button:hover {
   color: #f4f4f4;
 }
 
-.nill-dark.mono .base-color {
+.pragal-dark.mono .base-color {
   color: #ffffff !important;
 }
 
-.nill-dark.mono .bg-base-color {
+.pragal-dark.mono .bg-base-color {
   background-color: #ffffff !important;
 }
 
-.nill-dark.mono .pill-button {
+.pragal-dark.mono .pill-button {
   background-color: #f0f0f0;
   border: 2px solid #f0f0f0;
   color: #2a2a2b;
 }
 
-.nill-dark.mono .pill-button:hover {
+.pragal-dark.mono .pill-button:hover {
   background-color: #ffffff;
   border-color: #ffffff;
 }
 
-.nill-dark.mono #pp-nav li .active span {
+.pragal-dark.mono #pp-nav li .active span {
   background-color: #ffffff !important;
 }
 
-.nill-dark.mono .title-small p:before {
+.pragal-dark.mono .title-small p:before {
   background: #ffffff;
 }
 
-.nill-dark.mono .title-small p:after {
+.pragal-dark.mono .title-small p:after {
   background: #ffffff;
 }
 
-.nill-dark.mono .hero .social-icon .list-inline-item i:hover {
+.pragal-dark.mono .hero .social-icon .list-inline-item i:hover {
   color: #a8a8a8 !important;
 }
 
-.nill-dark.mono ul.timeline > li:before {
+.pragal-dark.mono ul.timeline > li:before {
   border: 3px solid #ffffff;
 }
 
-.nill-dark.mono .skill-box .skillbar-bar {
+.pragal-dark.mono .skill-box .skillbar-bar {
   background: #ffffff;
 }
 
-.nill-dark.mono .skill-box .skillbar {
+.pragal-dark.mono .skill-box .skillbar {
   background-color: #929292;
 }
 
-.nill-dark.mono .portfolio .portfolio-filter a.active {
+.pragal-dark.mono .portfolio .portfolio-filter a.active {
   background-color: #ffffff !important;
   color: #2a2a2b !important;
 }
 
-.nill-dark.mono .portfolio .portfolio-filter a:hover {
+.pragal-dark.mono .portfolio .portfolio-filter a:hover {
   background-color: #ffffff !important;
   color: #2a2a2b !important;
 }
 
-.nill-dark.mono .portfolio .img-overlay {
+.pragal-dark.mono .portfolio .img-overlay {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.nill-dark.mono .portfolio .img-overlay-content a:hover {
+.pragal-dark.mono .portfolio .img-overlay-content a:hover {
   background-color: #a8a8a8;
 }
 
-.nill-dark.mono .portfolio .portfolio-icon a:hover, .nill-dark.mono .portfolio .portfolio-icon button:hover {
+.pragal-dark.mono .portfolio .portfolio-icon a:hover, .pragal-dark.mono .portfolio .portfolio-icon button:hover {
   background-color: #a8a8a8;
 }
 
-.nill-dark.mono .testimonial .owl-dot.active span {
+.pragal-dark.mono .testimonial .owl-dot.active span {
   background-color: #a8a8a8;
 }
 
-.nill-dark.mono .testimonial .owl-carousel .testimonial-item img {
+.pragal-dark.mono .testimonial .owl-carousel .testimonial-item img {
   border: 2px solid white;
 }
 
-.nill-dark.mono .testimonial .owl-nav .owl-prev span, .nill-dark.mono .testimonial .owl-nav .owl-next span {
+.pragal-dark.mono .testimonial .owl-nav .owl-prev span, .pragal-dark.mono .testimonial .owl-nav .owl-next span {
   background: #a8a8a8;
 }
 
-.nill-dark.mono .blog .blog-item h5 a:hover {
+.pragal-dark.mono .blog .blog-item h5 a:hover {
   color: #f4f4f4 !important;
 }
 
-.nill-dark.mono .blog .blog-link button {
+.pragal-dark.mono .blog .blog-link button {
   color: #ffffff;
 }
 
-.nill-dark.mono .blog .blog-link button:hover {
+.pragal-dark.mono .blog .blog-link button:hover {
   color: #f4f4f4 !important;
 }
 
-.nill-dark.mono .footer .socails li i:hover {
+.pragal-dark.mono .footer .socails li i:hover {
   color: #919191 !important;
 }
 
-.nill-dark.mono .color-scheme i {
+.pragal-dark.mono .color-scheme i {
   color: #2a2a2b;
 }
 
 @media (max-width: 767px) {
-  .nill-dark header {
+  .pragal-dark header {
     background-color: #222 !important;
     -webkit-box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.4);
             box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.4);

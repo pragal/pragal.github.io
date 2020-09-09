@@ -79,7 +79,7 @@ function pagePilling(){
 function colorScheme(){
     var $darkLogo = $('.dark-logo');
     $('.color-scheme').click(function() {
-        $("body").toggleClass('nill-dark');
+        $("body").toggleClass('pragal-dark');
         $('.section').toggleClass('bg-dark');
         $('.color-scheme').removeClass('d-none').addClass('d-inline-block');
         $(this).removeClass('d-inline-block').addClass('d-none');
